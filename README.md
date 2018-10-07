@@ -1,0 +1,2 @@
+# Technex
+Twitter Sentimental Analysis
