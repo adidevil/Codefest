@@ -8,6 +8,7 @@ from keras.layers import LSTM
 from keras import backend as K
 import utils
 from keras.preprocessing.sequence import pad_sequences
+#import keras
 
 FREQ_DIST_FILE = 'train-processed-freqdist.pkl'
 BI_FREQ_DIST_FILE = 'train-processed-freqdist-bi.pkl'
@@ -17,7 +18,7 @@ GLOVE_FILE = '../Linguipedia/twitter-sentiment-analysis/dataset/glove-seeds.txt'
 dim = 200
 
 
-def get_glove_vectors(vocab):
+def get_glove_vectors(vocab): 
     print 'Looking for GLOVE vectors'
     glove_vectors = {}
     found = 0
